@@ -71,7 +71,7 @@ int main()
 	//multiply Matrix C
 	for (i = 0; i < 3; i++) {
 		for (j = 0; j < 3; i++) {
-			result[i][j] += (C[i][j]) * 3;
+			result[i][j] += (C[i][j]) * 3);
 			
 		}
 		
