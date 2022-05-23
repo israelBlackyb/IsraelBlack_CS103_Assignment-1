@@ -1,1 +1,2 @@
-﻿  Task3.vcxproj -> C:\Users\Poltato\Documents\GitHub\IsraelBlack_CS103_Assignment-1\Task3\x64\Debug\Task3.exe
+﻿  Task3.cpp
+C:\Users\Poltato\Documents\GitHub\IsraelBlack_CS103_Assignment-1\Task3\Task3.cpp(74,34): error C2059: syntax error: ')'

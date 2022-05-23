@@ -27,14 +27,15 @@ int main()
 	drawHangman();
 	cout << "\nGuess the missing letter in "<< word<< ": ";
 	answer = play();
-}
+	}
 
 void wordGen() {
 	string  wordList[5] = { "yoob_e","bett_r","corn_r", "lett_r", "plan_t" };
 	srand(time(NULL));
 	int RandIndex = rand() % 6; 
 	word = wordList[RandIndex];
-}
+	}
+	else
 
 
 void line(int dashes)
@@ -42,7 +43,7 @@ void line(int dashes)
 	for (int i = 0; i < dashes; i++)
 	{
 		cout << "-";
-	}
+}
 }
 
 void drawHangman()
@@ -79,6 +80,8 @@ void walkMan()
 	cout << "    / \\" << endl;
 }
 
+//displays answer after win or lose
+void displayAnswer() {
 
 char play()
 {
@@ -104,7 +107,18 @@ char play()
 				cout << "\nYour guess is wrong" << endl;
 				invertHangMan();
 			}
-		}
-	}
+}
+
+//display when user runs out of guesses
+void invertHangMan() {
+	cout << "   ____" << endl;
+	cout << "  |    |" << endl;
+	cout << "  |   /|\\" << endl;
+	cout << "  |    |" << endl;
+	cout << "  |   /|\\ " << endl;
+	cout << "  |    o" << endl;
+	cout << "  |" << endl;
+	cout << "-----" << endl;
+}
 	return(guessLetter);
 }
