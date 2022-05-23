@@ -1,3 +1,0 @@
-﻿  Task4.cpp
-C:\Users\Poltato\Documents\GitHub\IsraelBlack_CS103_Assignment-1\Task4\Task4.cpp(34,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-  Task4.vcxproj -> C:\Users\Poltato\Documents\GitHub\IsraelBlack_CS103_Assignment-1\Task4\x64\Debug\Task4.exe
