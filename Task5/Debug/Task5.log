@@ -1,0 +1,6 @@
+﻿  Task5.cpp
+C:\Users\270161698\OneDrive - UP Education\Documents\GitHub\IsraelBlack_CS103_Assignment-1\Task5\Task5.cpp(43,13): warning C4129: 'S': unrecognized character escape sequence
+C:\Users\270161698\OneDrive - UP Education\Documents\GitHub\IsraelBlack_CS103_Assignment-1\Task5\Task5.cpp(102,9): warning C4551: function call missing argument list
+C:\Users\270161698\OneDrive - UP Education\Documents\GitHub\IsraelBlack_CS103_Assignment-1\Task5\Task5.cpp(110,19): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\270161698\OneDrive - UP Education\Documents\GitHub\IsraelBlack_CS103_Assignment-1\Task5\Task5.cpp(164): warning C4715: 'play': not all control paths return a value
+  Task5.vcxproj -> C:\Users\270161698\OneDrive - UP Education\Documents\GitHub\IsraelBlack_CS103_Assignment-1\Task5\Debug\Task5.exe

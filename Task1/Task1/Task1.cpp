@@ -19,8 +19,8 @@ int main()
     football player2; //declare player2 struct
     teamPosition player1Pos=g; //default variable for enum declaration
     teamPosition player2Pos=g;
-    char p1PosInput; //container for user input for position char
-    char p2PosInput;
+    char posInput; //container for user input for position char
+    
 
 
     cout << "Football team census. Please Enter your team details\n";
@@ -30,11 +30,11 @@ int main()
         if (i == 1) { //first iteration of loop for player1 details
             cout << "\nPlayer 1, Enter your team number: "; cin >> player1.playerNumber;
             cout << "\nEnter your top speed: "; cin >> player1.playerTopSpeed;
-            cout << "\nEnter the first letter of your position in the team (g, d, w, s, m): "; cin >> p1PosInput; //char input for storing player position before converting
+            cout << "\nEnter the first letter of your position in the team (g, d, w, s, m): "; cin >> posInput; //char input for storing player position before converting
 
-            p1PosInput = tolower(p1PosInput);//all inputs are made lowercase so user mayt enter capital letters
+            p1PosInput = tolower(posInput);//all inputs are made lowercase so user mayt enter capital letters
 
-            teamPosition player1Pos = static_cast<teamPosition>(p1PosInput);//changes char of p1PosInput to enum int
+            teamPosition pos = static_cast<teamPosition>(posInput);//changes char of p1PosInput to enum int
 
             switch (player1Pos) //converts the enum entry into the string for the structure, allowing storage in structure, prepped for output
             {
@@ -62,11 +62,11 @@ int main()
         else if (i == 2) {
             cout << "\nPlayer 2, Enter your team number: "; cin >> player2.playerNumber;
             cout << "\nEnter your top speed: "; cin >> player2.playerTopSpeed;
-            cout << "\nEnter the first letter of your position in the team (g, d, w, s, m): "; cin >> p2PosInput;//char input for storing player position before converting
+            cout << "\nEnter the first letter of your position in the team (g, d, w, s, m): "; cin >> posInput;//char input for storing player position before converting
 
-            p1PosInput = tolower(p1PosInput);//all inputs are made lowercase so user mayt enter capital letters
+            posInput = tolower(posInput);//all inputs are made lowercase so user mayt enter capital letters
 
-            teamPosition player2Pos = static_cast<teamPosition>(p2PosInput);//changes char of p2PosInput to enum int
+            teamPosition player2Pos = static_cast<teamPosition>(posInput);//changes char of p2PosInput to enum int
 
             switch (player2Pos)//converts the enum entry into the string for the structure, allowing storage in structure, prepped for output
             {
